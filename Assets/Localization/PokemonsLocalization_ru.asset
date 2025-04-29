@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PokemonsLocalization_ru
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 3aad5f5b51af4854fb4fa50a837eaea3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 89995264000
+    m_Localized: "\u041F\u0435\u0440\u0432\u044B\u0439 \u041F\u043E\u043A\u0435\u043C\u043E\u043D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211856572416
+    m_Localized: "\u0412\u0442\u043E\u0440\u043E\u0439 \u041F\u043E\u043A\u0435\u043C\u043E\u043D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446431412224
+    m_Localized: "\u041F\u0435\u0440\u0432\u044B\u0439 \u041F\u043E\u043A\u0435\u043C\u043E\u043D
+      (\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 569911721984
+    m_Localized: "\u0412\u0442\u043E\u0440\u043E\u0439 \u041F\u043E\u043A\u0435\u043C\u043E\u043D
+      (\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12422381486080
+    m_Localized: "\u0422\u0440\u0435\u0442\u0438\u0439 \u041F\u043E\u043A\u0435\u043C\u043E\u043D
+      (\u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12372272136192
+    m_Localized: "\u0422\u0440\u0435\u0442\u0438\u0439 \u041F\u043E\u043A\u0435\u043C\u043E\u043D"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

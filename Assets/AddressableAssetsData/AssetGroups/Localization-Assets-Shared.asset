@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: ecc23cffc8ede954a999d731fa7d4dac
   m_SerializeEntries:
+  - m_GUID: 3aad5f5b51af4854fb4fa50a837eaea3
+    m_Address: Assets/Localization/PokemonsLocalization Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 819af6a13813bb249aa3595a883a99db
     m_Address: Assets/Locales/TextLocalization Shared Data.asset
     m_ReadOnly: 1

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: TextLocalization
+  m_Name: PokemonsLocalization
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: 819af6a13813bb249aa3595a883a99db, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: 3aad5f5b51af4854fb4fa50a837eaea3, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: c20a8dd07d86a76449cc8813516f13cc, type: 2}
-  - {fileID: 11400000, guid: 4f0cecc628272e04798fc725893b8346, type: 2}
+  - {fileID: 11400000, guid: dfb71ef779adc1247a49bf2e58f86b47, type: 2}
+  - {fileID: 11400000, guid: 6d1cee96d1bfff34cb77c20e90f7b6ff, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

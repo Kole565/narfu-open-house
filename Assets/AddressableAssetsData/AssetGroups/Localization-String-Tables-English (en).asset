@@ -16,7 +16,13 @@ MonoBehaviour:
   m_GUID: a6f6f6279b51f984bac5b83157010e30
   m_SerializeEntries:
   - m_GUID: c20a8dd07d86a76449cc8813516f13cc
-    m_Address: TextLocalization_en
+    m_Address: UILocalization_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfb71ef779adc1247a49bf2e58f86b47
+    m_Address: PokemonsLocalization_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

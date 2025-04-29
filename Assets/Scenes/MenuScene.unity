@@ -256,6 +256,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &287081898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 287081899}
+  - component: {fileID: 287081900}
+  m_Layer: 0
+  m_Name: Pokemon Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &287081899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287081898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &287081900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287081898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39232e2d12c0904459536ba0cbf0df89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPokemons:
+  - nameKey: First Name
+    descriptionKey: First Description
+    image: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    hiddenImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  - nameKey: Second Name
+    descriptionKey: Second Description
+    image: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    hiddenImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  - nameKey: Third Name
+    descriptionKey: Third Description
+    image: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    hiddenImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  catchedPokemons: []
+  pokemonForDetails:
+    nameKey: 
+    descriptionKey: 
+    image: {fileID: 0}
+    hiddenImage: {fileID: 0}
+  showAllPokemons: 1
 --- !u!1 &380997892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2494,3 +2558,4 @@ SceneRoots:
   - {fileID: 115292213}
   - {fileID: 398933737}
   - {fileID: 1125517493}
+  - {fileID: 287081899}
