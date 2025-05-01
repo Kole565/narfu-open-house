@@ -108,6 +108,18 @@ MonoBehaviour:
     m_Localized: Video Title
     m_Metadata:
       m_Items: []
+  - m_Id: 3097321464315904
+    m_Localized: Reset progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3105242898153472
+    m_Localized: Just do it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3106246028869632
+    m_Localized: Are you sure?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

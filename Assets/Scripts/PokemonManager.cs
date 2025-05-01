@@ -30,4 +30,9 @@ public class PokemonManager : MonoBehaviour
         }
     }
 
+    public void ResetPokemonsState()
+    {
+        catchedPokemons.Clear();
+    }
+
 }

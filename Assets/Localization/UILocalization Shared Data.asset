@@ -75,6 +75,18 @@ MonoBehaviour:
     m_Key: Video Title
     m_Metadata:
       m_Items: []
+  - m_Id: 3097321464315904
+    m_Key: Reset Settings Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3105242898153472
+    m_Key: Reset Confirmation Dialog Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3106246028869632
+    m_Key: Reset Confirmation Dialog Question
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
