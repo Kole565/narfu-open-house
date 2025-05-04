@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - PokemonsGrid
+  - PokemonDetails
   layers:
   - Default
   - TransparentFX

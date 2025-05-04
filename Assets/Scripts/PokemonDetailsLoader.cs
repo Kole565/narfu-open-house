@@ -1,20 +1,15 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Components;
 using UnityEngine.UI;
 
 public class PokemonDetailsLoader : MonoBehaviour
 {
-    private Pokemon pokemon;
-
     [SerializeField] private LocalizeStringEvent pokemonName;
     [SerializeField] private Image pokemonImage;
     [SerializeField] private LocalizeStringEvent pokemonDescription;
 
-    void Start()
+    public void UpdatePokemonDetails(Pokemon pokemon)
     {
-        pokemon = PokemonManager.Instance.pokemonForDetails;
-
         pokemonName.StringReference.SetReference(Pokemon.localizationTableName, pokemon.nameKey);
         pokemonImage.sprite = pokemon.image;
         pokemonDescription.StringReference.SetReference(Pokemon.localizationTableName, pokemon.descriptionKey);

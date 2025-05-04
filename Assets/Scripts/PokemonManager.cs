@@ -8,9 +8,9 @@ public class PokemonManager : MonoBehaviour
 
     public List<Pokemon> allPokemons;
     public List<Pokemon> catchedPokemons = new List<Pokemon>();
-    public Pokemon pokemonForDetails;
 
     public bool showAllPokemons = false;
+    public PokemonDetailsLoader pokemonDetailsLoader;
 
     private void Start()
     {
@@ -33,6 +33,11 @@ public class PokemonManager : MonoBehaviour
     public void ResetPokemonsState()
     {
         catchedPokemons.Clear();
+    }
+
+    public void UpdatePokemonForDetails(Pokemon pokemon)
+    {
+        pokemonDetailsLoader.UpdatePokemonDetails(pokemon);
     }
 
 }

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PokemonGridController : MonoBehaviour
 {
+    [SerializeField] private GameObject detailsWindow;
     [SerializeField] private GameObject pokemonCardPrefab;
     [SerializeField] private Transform gridLayoutGroupTransform;
 
@@ -31,6 +32,7 @@ public class PokemonGridController : MonoBehaviour
                     pokemon.image = pokemon.hiddenImage;
                 }
                 pokemonCard.SetPokemon(pokemon);
+                pokemonCard.detailsWindow = detailsWindow;
             }
             else
             {

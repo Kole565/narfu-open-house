@@ -4,6 +4,8 @@ using UnityEngine.Localization.Components;
 
 public class PokemonCard : MonoBehaviour
 {
+    public GameObject detailsWindow;
+
     public Image pokemonImage;
     public LocalizeStringEvent pokemonName;
     public Button pokemonButton;
@@ -23,11 +25,9 @@ public class PokemonCard : MonoBehaviour
         }
     }
 
-    public void UpdatePokemonForDetails()
+    public void UpdateAndSwithToPokemonDetails()
     {
-        if (pokemon != null)
-        {
-            PokemonManager.Instance.pokemonForDetails = pokemon;
-        }
+        PokemonManager.Instance.UpdatePokemonForDetails(pokemon);
+        UIManager.Instance.SwitchUIWindow(detailsWindow);
     }
 }
