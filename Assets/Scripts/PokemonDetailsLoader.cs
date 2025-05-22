@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class PokemonDetailsLoader : MonoBehaviour
 {
-    [SerializeField] private LocalizeStringEvent pokemonName;
-    [SerializeField] private Image pokemonImage;
-    [SerializeField] private LocalizeStringEvent pokemonDescription;
+    public LocalizeStringEvent pokemonName;
+    public Image pokemonImage;
+    public LocalizeStringEvent pokemonDescription;
 
     public void UpdatePokemonDetails(Pokemon pokemon)
     {

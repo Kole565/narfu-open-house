@@ -31,6 +31,7 @@ public class PokemonGridController : MonoBehaviour
                 {
                     pokemon.image = pokemon.hiddenImage;
                 }
+
                 pokemonCard.SetPokemon(pokemon);
                 pokemonCard.detailsWindow = detailsWindow;
             }

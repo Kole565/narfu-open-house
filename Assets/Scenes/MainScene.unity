@@ -4996,6 +4996,7 @@ GameObject:
   - component: {fileID: 951792642}
   - component: {fileID: 951792641}
   - component: {fileID: 951792640}
+  - component: {fileID: 951792645}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -5037,8 +5038,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 4e1bd3dea48e95e4f899d2fd1b34e826,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 625783018372274352, guid: 7721fff6bb51af14b89fd58214d3d502,
-    type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &951792641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5102,6 +5102,26 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 613648479}
   m_RequestedTrackingOriginMode: 1
   m_CameraYOffset: 0
+--- !u!114 &951792645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951792638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0f489fd43722043820b1fbf83c0d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToInstantiate: {fileID: 625783018372274352, guid: 7721fff6bb51af14b89fd58214d3d502,
+    type: 3}
+  pokemonDataList:
+  - {fileID: 11400000, guid: c87a7b03f557aa5498fc3f95e9c2efcd, type: 2}
+  - {fileID: 11400000, guid: f737a1be8dbf0284eb3e9066f9ccd17b, type: 2}
+  - {fileID: 11400000, guid: ac42e679d7281f84ca994d12ae5f8a1a, type: 2}
+  - {fileID: 11400000, guid: 6bf4ba314340d5140809b90056d02e85, type: 2}
+  - {fileID: 11400000, guid: 5842f11716ce2794dbf1242fcda3a0f3, type: 2}
 --- !u!1 &963682985
 GameObject:
   m_ObjectHideFlags: 0
@@ -7809,19 +7829,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPokemons:
-  - nameKey: First Name
-    descriptionKey: First Description
-    image: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    hiddenImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  - nameKey: Second Name
-    descriptionKey: Second Description
-    image: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    hiddenImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  - nameKey: Third Name
-    descriptionKey: Third Description
-    image: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    hiddenImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  catchedPokemons: []
+  - {fileID: 11400000, guid: c87a7b03f557aa5498fc3f95e9c2efcd, type: 2}
+  - {fileID: 11400000, guid: f737a1be8dbf0284eb3e9066f9ccd17b, type: 2}
+  - {fileID: 11400000, guid: ac42e679d7281f84ca994d12ae5f8a1a, type: 2}
+  - {fileID: 11400000, guid: 6bf4ba314340d5140809b90056d02e85, type: 2}
+  - {fileID: 11400000, guid: 5842f11716ce2794dbf1242fcda3a0f3, type: 2}
+  catchedPokemons:
+  - {fileID: 11400000, guid: c87a7b03f557aa5498fc3f95e9c2efcd, type: 2}
+  - {fileID: 11400000, guid: f737a1be8dbf0284eb3e9066f9ccd17b, type: 2}
   showAllPokemons: 1
   pokemonDetailsLoader: {fileID: 2054076272}
 --- !u!4 &1315939643

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PokemonManager : MonoBehaviour
@@ -14,7 +15,7 @@ public class PokemonManager : MonoBehaviour
 
     private void Start()
     {
-        catchedPokemons.Add(allPokemons[0]); // TODO: Remove this, it's for testing only.
+        catchedPokemons.AddRange(allPokemons); // TODO: Remove this, it's for testing only.
     }
 
     private void Awake()

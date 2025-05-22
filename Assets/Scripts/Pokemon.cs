@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[System.Serializable]
-public class Pokemon
+[CreateAssetMenu(fileName = "PokemonData", menuName = "AR App/Pokemon Data")]
+public class Pokemon : ScriptableObject
 {
     public static string localizationTableName = "PokemonsLocalization";
 

@@ -45,6 +45,22 @@ MonoBehaviour:
     m_Localized: "\u0422\u0440\u0435\u0442\u0438\u0439 \u041F\u043E\u043A\u0435\u043C\u043E\u043D"
     m_Metadata:
       m_Items: []
+  - m_Id: 7675277092241408
+    m_Localized: Pokemon 4 Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675359933939712
+    m_Localized: Pokemon 4 Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675449255837696
+    m_Localized: Pokemon 5 Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675531833294848
+    m_Localized: Pokemon 5 Description
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
