@@ -186,7 +186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16605b4da64061f45b29679c2ff47caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailsWindow: {fileID: 520460605}
   pokemonCardPrefab: {fileID: 7945832771070700376, guid: 89e09e74e910d534da8eaa8ea2746227,
     type: 3}
   gridLayoutGroupTransform: {fileID: 869774157}
@@ -7834,11 +7833,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ac42e679d7281f84ca994d12ae5f8a1a, type: 2}
   - {fileID: 11400000, guid: 6bf4ba314340d5140809b90056d02e85, type: 2}
   - {fileID: 11400000, guid: 5842f11716ce2794dbf1242fcda3a0f3, type: 2}
-  catchedPokemons:
-  - {fileID: 11400000, guid: c87a7b03f557aa5498fc3f95e9c2efcd, type: 2}
-  - {fileID: 11400000, guid: f737a1be8dbf0284eb3e9066f9ccd17b, type: 2}
-  showAllPokemons: 1
-  pokemonDetailsLoader: {fileID: 2054076272}
+  catchedPokemons: []
+  currentPokemonForGalleryDetails: {fileID: 0}
 --- !u!4 &1315939643
 Transform:
   m_ObjectHideFlags: 0
@@ -9868,6 +9864,7 @@ MonoBehaviour:
   - {fileID: 1951069162}
   - {fileID: 2097068497}
   - {fileID: 963682985}
+  detailsWindow: {fileID: 520460605}
 --- !u!114 &1576341142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12281,6 +12278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01763c0a6e3eb0e48b126c8cd4237a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pokemon: {fileID: 0}
   pokemonName: {fileID: 1346876653}
   pokemonImage: {fileID: 1468149634}
   pokemonDescription: {fileID: 1288601906}

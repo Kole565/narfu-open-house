@@ -2,16 +2,15 @@ using UnityEngine;
 
 public class PokemonGridController : MonoBehaviour
 {
-    [SerializeField] private GameObject detailsWindow;
     [SerializeField] private GameObject pokemonCardPrefab;
     [SerializeField] private Transform gridLayoutGroupTransform;
 
-    public void Awake()
+    public void OnEnable()
     {
         gridLayoutGroupTransform = GameObject.FindWithTag("PokemonsGrid").transform;
         DisplayPokemons();
     }
-
+    
     public void DisplayPokemons()
     {
         foreach (Transform child in gridLayoutGroupTransform)
@@ -21,24 +20,19 @@ public class PokemonGridController : MonoBehaviour
 
         foreach (Pokemon pokemon in PokemonManager.Instance.allPokemons)
         {
-            GameObject pokemonCardGO = Instantiate(pokemonCardPrefab, gridLayoutGroupTransform);
+            GameObject galleryItemGO = Instantiate(pokemonCardPrefab, gridLayoutGroupTransform);
+            GalleryItem galleryItem = galleryItemGO.GetComponent<GalleryItem>();
 
-            PokemonCard pokemonCard = pokemonCardGO.GetComponent<PokemonCard>();
-
-            if (pokemonCard != null)
+            if (galleryItem != null)
             {
-                if (!PokemonManager.Instance.catchedPokemons.Contains(pokemon))
-                {
-                    pokemon.image = pokemon.hiddenImage;
-                }
+                galleryItem.isVisible = PokemonManager.Instance.catchedPokemons.Contains(pokemon);
 
-                pokemonCard.SetPokemon(pokemon);
-                pokemonCard.detailsWindow = detailsWindow;
+                galleryItem.Load(pokemon);
             }
             else
             {
                 Debug.LogError("PokemonCard script not found on the Pokemon card prefab!");
-                Destroy(pokemonCardGO);
+                Destroy(galleryItemGO);
             }
         }
     }

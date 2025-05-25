@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class PokemonManager : MonoBehaviour
@@ -10,13 +9,7 @@ public class PokemonManager : MonoBehaviour
     public List<Pokemon> allPokemons;
     public List<Pokemon> catchedPokemons = new List<Pokemon>();
 
-    public bool showAllPokemons = false;
-    public PokemonDetailsLoader pokemonDetailsLoader;
-
-    private void Start()
-    {
-        catchedPokemons.AddRange(allPokemons); // TODO: Remove this, it's for testing only.
-    }
+    public Pokemon currentPokemonForGalleryDetails;
 
     private void Awake()
     {
@@ -36,9 +29,15 @@ public class PokemonManager : MonoBehaviour
         catchedPokemons.Clear();
     }
 
-    public void UpdatePokemonForDetails(Pokemon pokemon)
+    public void SetCatched(Pokemon pokemon)
     {
-        pokemonDetailsLoader.UpdatePokemonDetails(pokemon);
+        if (!catchedPokemons.Contains(pokemon)) {
+            catchedPokemons.Add(pokemon);
+        }
     }
 
+    public void UpdatePokemonForDetails(Pokemon pokemon)
+    {
+        currentPokemonForGalleryDetails = pokemon;
+    }
 }

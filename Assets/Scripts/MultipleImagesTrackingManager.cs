@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -15,6 +13,8 @@ public class MultipleImagesTrackingManager : MonoBehaviour
 
     private Dictionary<string, GameObject> _arObjects = new Dictionary<string, GameObject>();
     private Dictionary<string, Pokemon> pokemonDataDict = new Dictionary<string, Pokemon>();
+
+    public List<GameObject> _hiddenObjects;
 
 
     void Start()
@@ -76,8 +76,11 @@ public class MultipleImagesTrackingManager : MonoBehaviour
             LoadDataIntoPrefab(imageName, newObject);
         }
 
-        _arObjects[imageName].SetActive(true);
-        _arObjects[imageName].transform.SetParent(trackedImage.transform);
+        if (!_hiddenObjects.Contains(_arObjects[imageName]))
+        {
+            _arObjects[imageName].SetActive(true);
+            _arObjects[imageName].transform.SetParent(trackedImage.transform);
+        }
     }
 
     void HandleImageLost(ARTrackedImage trackedImage)
@@ -96,9 +99,11 @@ public class MultipleImagesTrackingManager : MonoBehaviour
         {
             Pokemon data = pokemonDataDict[imageName];
 
-            PokemonDetailsLoader pokemonDetailsLoader = instantiatedObject.GetComponentInChildren<PokemonDetailsLoader>();
+            ARDialog pokemonDetailsLoader = instantiatedObject.GetComponent<ARDialog>();
 
-            pokemonDetailsLoader.UpdatePokemonDetails(data);
+            pokemonDetailsLoader.Load(data);
+
+            pokemonDetailsLoader.imageManager = this;
         }
         else
         {
@@ -106,4 +111,9 @@ public class MultipleImagesTrackingManager : MonoBehaviour
         }
     }
 
+    public void RemoveARObject(GameObject toHide)
+    {
+        if (!_hiddenObjects.Contains(toHide)) _hiddenObjects.Add(toHide);
+        toHide.SetActive(false);
+    }
 }

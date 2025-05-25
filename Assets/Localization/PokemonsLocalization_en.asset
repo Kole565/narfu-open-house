@@ -27,7 +27,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 446431412224
-    m_Localized: First Description
+    m_Localized: 'First Description
+
+      First Description 2
+
+      First Description
+      3'
     m_Metadata:
       m_Items: []
   - m_Id: 569911721984

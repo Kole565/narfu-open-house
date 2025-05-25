@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
 
     private GameObject[] lastOpened;
 
+    public GameObject detailsWindow;
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -46,6 +48,12 @@ public class UIManager : MonoBehaviour
             uiWindow.SetActive(false);
         }
         switchTo.SetActive(true);
+    }
+
+    public void SwitchToDetails()
+    {
+        SwitchUIWindow(detailsWindow);
+
     }
 
     public void ShowDialog(GameObject dialog)
