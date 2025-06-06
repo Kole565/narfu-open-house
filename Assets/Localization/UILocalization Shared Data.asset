@@ -15,48 +15,28 @@ MonoBehaviour:
   m_TableCollectionName: UILocalization
   m_TableCollectionNameGuidString: 819af6a13813bb249aa3595a883a99db
   m_Entries:
-  - m_Id: 148891680768
-    m_Key: Settings Title
-    m_Metadata:
-      m_Items: []
-  - m_Id: 12161911013376
-    m_Key: Settings Music
-    m_Metadata:
-      m_Items: []
-  - m_Id: 12261118885888
-    m_Key: Settings SFX
-    m_Metadata:
-      m_Items: []
-  - m_Id: 12334196244480
-    m_Key: Settings Language
-    m_Metadata:
-      m_Items: []
-  - m_Id: 12439896899584
-    m_Key: Settings Accessibility
-    m_Metadata:
-      m_Items: []
-  - m_Id: 12568041275392
-    m_Key: Return Button Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13666621767680
-    m_Key: About Title
+  - m_Id: 16199044504403968
+    m_Key: Gallery Title
     m_Metadata:
       m_Items: []
   - m_Id: 13755595538432
     m_Key: About Text
     m_Metadata:
       m_Items: []
-  - m_Id: 24984686870528
-    m_Key: Catch Menu Button
+  - m_Id: 13666621767680
+    m_Key: About Title
     m_Metadata:
       m_Items: []
   - m_Id: 25108020379648
     m_Key: Catch Gallery Button
     m_Metadata:
       m_Items: []
-  - m_Id: 25905609228288
-    m_Key: Menu Start
+  - m_Id: 24984686870528
+    m_Key: Catch Menu Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25966372110336
+    m_Key: Menu About
     m_Metadata:
       m_Items: []
   - m_Id: 25925574115328
@@ -67,16 +47,8 @@ MonoBehaviour:
     m_Key: Menu Settings
     m_Metadata:
       m_Items: []
-  - m_Id: 25966372110336
-    m_Key: Menu About
-    m_Metadata:
-      m_Items: []
-  - m_Id: 26484255408128
-    m_Key: Video Title
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3097321464315904
-    m_Key: Reset Settings Button
+  - m_Id: 25905609228288
+    m_Key: Menu Start
     m_Metadata:
       m_Items: []
   - m_Id: 3105242898153472
@@ -87,10 +59,36 @@ MonoBehaviour:
     m_Key: Reset Confirmation Dialog Question
     m_Metadata:
       m_Items: []
-  - m_Id: 16199044504403968
-    m_Key: '
-
-'
+  - m_Id: 3097321464315904
+    m_Key: Reset Settings Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12568041275392
+    m_Key: Return Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12439896899584
+    m_Key: Settings Accessibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12334196244480
+    m_Key: Settings Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12161911013376
+    m_Key: Settings Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12261118885888
+    m_Key: Settings SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148891680768
+    m_Key: Settings Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26484255408128
+    m_Key: Video Title
     m_Metadata:
       m_Items: []
   m_Metadata:
