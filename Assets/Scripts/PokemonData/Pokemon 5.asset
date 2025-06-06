@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameKey: Pokemon 5
   descriptionKey: Pokemon 5 Description
-  image: {fileID: 21300000, guid: 30db1d0de2a21ee49b8d1fbdb3867b0d, type: 3}
-  hiddenImage: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  image: {fileID: 21300000, guid: dc5fa86bd5ded734083a9f5be841dbdf, type: 3}
+  hiddenImage: {fileID: 21300000, guid: f7734cd4e63f3a347bd30edc34e624f4, type: 3}
