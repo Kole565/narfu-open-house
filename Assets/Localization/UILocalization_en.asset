@@ -113,7 +113,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3105242898153472
-    m_Localized: Just do it
+    m_Localized: Yes
     m_Metadata:
       m_Items: []
   - m_Id: 3106246028869632
@@ -122,6 +122,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 16199044504403968
     m_Localized: Pokemons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16996484698521600
+    m_Localized: No
     m_Metadata:
       m_Items: []
   references:
