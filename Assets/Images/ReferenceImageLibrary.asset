@@ -21,59 +21,59 @@ MonoBehaviour:
       m_GuidLow: 4869490545902988681
       m_GuidHigh: 12748641662155264429
     m_SerializedTextureGuid:
-      m_GuidLow: 13998365089166729170
-      m_GuidHigh: 4944483542648223274
-    m_Size: {x: 0.1, y: 0.1049744}
-    m_SpecifySize: 0
+      m_GuidLow: 13543539641429484359
+      m_GuidHigh: 8379885645431712779
+    m_Size: {x: 0.12, y: 0.12}
+    m_SpecifySize: 1
     m_Name: Pokemon 1
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4796974136217485734
       m_GuidHigh: 4914554241890665369
     m_SerializedTextureGuid:
-      m_GuidLow: 16772768448435549185
-      m_GuidHigh: 15225415033473759224
-    m_Size: {x: 0.1, y: 0.10225225}
-    m_SpecifySize: 0
+      m_GuidLow: 14849572803742330163
+      m_GuidHigh: 9084522483772378858
+    m_Size: {x: 0.12, y: 0.12}
+    m_SpecifySize: 1
     m_Name: Pokemon 2
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5755225485763614635
       m_GuidHigh: 14614945091030048135
     m_SerializedTextureGuid:
-      m_GuidLow: 3707746932781784911
-      m_GuidHigh: 18123527858080299193
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+      m_GuidLow: 6927926861187796347
+      m_GuidHigh: 2973620119799302234
+    m_Size: {x: 0.12, y: 0.12}
+    m_SpecifySize: 1
     m_Name: Pokemon 3
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5006979649264717592
       m_GuidHigh: 16899099431518366343
     m_SerializedTextureGuid:
-      m_GuidLow: 9548770914597845062
-      m_GuidHigh: 6785216630665999657
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+      m_GuidLow: 16529606843307901214
+      m_GuidHigh: 9819593901379099914
+    m_Size: {x: 0.12, y: 0.12}
+    m_SpecifySize: 1
     m_Name: Pokemon 4
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5393593707433125500
       m_GuidHigh: 1484213948599023806
     m_SerializedTextureGuid:
-      m_GuidLow: 12773491124759854047
-      m_GuidHigh: 2457982174673672298
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+      m_GuidLow: 172343016643144235
+      m_GuidHigh: 13936123242698623659
+    m_Size: {x: 0.12, y: 0.12}
+    m_SpecifySize: 1
     m_Name: Pokemon 5
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4654647165305057083
       m_GuidHigh: 5154290709006545800
     m_SerializedTextureGuid:
-      m_GuidLow: 2262063947086893269
-      m_GuidHigh: 11993952674906224488
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+      m_GuidLow: 11048565279848568516
+      m_GuidHigh: 7573822334373686379
+    m_Size: {x: 0.12, y: 0.12}
+    m_SpecifySize: 1
     m_Name: Pokemon 6
     m_Texture: {fileID: 0}
