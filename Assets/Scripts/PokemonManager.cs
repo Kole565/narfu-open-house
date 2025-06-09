@@ -24,7 +24,7 @@ public class PokemonManager : MonoBehaviour
         }
     }
 
-    public void ResetPokemonsState()
+    public void Reset()
     {
         catchedPokemons.Clear();
     }

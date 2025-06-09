@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6513c7efdd0ccd34dab0ae976a36048b, type: 3}
-  m_Name: Pokemon 2
+  m_Name: Pokemon 6
   m_EditorClassIdentifier: 
-  nameKey: Pokemon 2
-  shortDescriptionKey: Pokemon 2 Short Description
-  detailedDescriptionKey: Pokemon 2 Detailed Description
-  image: {fileID: 21300000, guid: b4e17401d809e8c4f87718244e8a4bd3, type: 3}
+  nameKey: Pokemon 6
+  shortDescriptionKey: Pokemon 6 Short Description
+  detailedDescriptionKey: Pokemon 6 Detailed Description
+  image: {fileID: 21300000, guid: c95510d5772c1f6468b7a140691473a6, type: 3}
   hiddenImage: {fileID: 21300000, guid: f7734cd4e63f3a347bd30edc34e624f4, type: 3}
-  conturedImage: {fileID: 21300000, guid: 11f873370360de14c81608dc554f2759, type: 3}
+  conturedImage: {fileID: 21300000, guid: 4d71a9c52baf4614e8c46f112d6c794c, type: 3}

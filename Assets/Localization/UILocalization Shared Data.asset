@@ -95,6 +95,10 @@ MonoBehaviour:
     m_Key: Reset Disagree Dialog Button
     m_Metadata:
       m_Items: []
+  - m_Id: 17068631542382592
+    m_Key: App Name
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

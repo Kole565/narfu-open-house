@@ -41,10 +41,12 @@ public class ARDialog : MonoBehaviour, IPokemonLoadable
             pokemonImage.sprite = pokemon.image;
         }
 
-        var loc = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(Pokemon.localizationTableName, pokemon.descriptionKey);
+        var loc = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(Pokemon.localizationTableName, pokemon.shortDescriptionKey);
         loc.Completed += LocalizedString_Completed;
 
         nextMessageButton.onClick.AddListener(OnPanelClicked);
+
+        UpdateText();
     }
 
     private void LocalizedString_Completed(AsyncOperationHandle<string> obj)
@@ -52,6 +54,7 @@ public class ARDialog : MonoBehaviour, IPokemonLoadable
         monologueSegments = obj.Result.Split(new string[] { "\n" }, System.StringSplitOptions.None);
         UpdateText();
     }
+
     void UpdateText()
     {
         if (dialogueText != null && monologueSegments != null && monologueSegments.Length > 0)

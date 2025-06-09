@@ -128,6 +128,10 @@ MonoBehaviour:
     m_Localized: No
     m_Metadata:
       m_Items: []
+  - m_Id: 17068631542382592
+    m_Localized: NARFU Open House
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

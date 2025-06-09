@@ -60,7 +60,39 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7675531833294848
-    m_Localized: Pokemon 5 Description
+    m_Localized: Pokemon 1 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241063894171648
+    m_Localized: Pokemon 2 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241000006533120
+    m_Localized: Pokemon 3 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241156038836224
+    m_Localized: Pokemon 4 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241202239094784
+    m_Localized: Pokemon 5 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241371357626368
+    m_Localized: Pokemon 5 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241454807498752
+    m_Localized: Pokemon 6 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241453062668288
+    m_Localized: Pokemon 6 Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241451145871360
+    m_Localized: Pokemon 6 Detailed Description
     m_Metadata:
       m_Items: []
   references:

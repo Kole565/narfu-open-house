@@ -116,4 +116,9 @@ public class MultipleImagesTrackingManager : MonoBehaviour
         if (!_hiddenObjects.Contains(toHide)) _hiddenObjects.Add(toHide);
         toHide.SetActive(false);
     }
+
+    public void Reset()
+    {
+        _hiddenObjects.Clear();
+    }
 }

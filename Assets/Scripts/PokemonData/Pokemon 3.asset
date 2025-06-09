@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Pokemon 3
   m_EditorClassIdentifier: 
   nameKey: Pokemon 3
-  descriptionKey: Pokemon 3 Description
-  image: {fileID: 21300000, guid: 7d0d18a7611dced44b208ebc7c87f693, type: 3}
+  shortDescriptionKey: Pokemon 3 Short Description
+  detailedDescriptionKey: Pokemon 3 Detailed Description
+  image: {fileID: 21300000, guid: dd809f4f90303374b9b8c57990b483fb, type: 3}
   hiddenImage: {fileID: 21300000, guid: f7734cd4e63f3a347bd30edc34e624f4, type: 3}
+  conturedImage: {fileID: 21300000, guid: 2f464f3eda3d81f49937087634c2a147, type: 3}

@@ -37,7 +37,7 @@ public class GalleryDetails : MonoBehaviour, IPokemonLoadable
         }        
         if (pokemonDescription != null)
         {
-            pokemonDescription.StringReference.SetReference(Pokemon.localizationTableName, pokemon.descriptionKey);
+            pokemonDescription.StringReference.SetReference(Pokemon.localizationTableName, pokemon.detailedDescriptionKey);
         }
     }
 }
