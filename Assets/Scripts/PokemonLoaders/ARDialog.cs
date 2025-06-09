@@ -38,7 +38,7 @@ public class ARDialog : MonoBehaviour, IPokemonLoadable
         }
         if (pokemonImage != null)
         {
-            pokemonImage.sprite = pokemon.image;
+            pokemonImage.sprite = pokemon.conturedImage;
         }
 
         var loc = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(Pokemon.localizationTableName, pokemon.shortDescriptionKey);
