@@ -95,6 +95,30 @@ MonoBehaviour:
     m_Localized: Pokemon 6 Detailed Description
     m_Metadata:
       m_Items: []
+  - m_Id: 14858123288428544
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858077650206720
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858004203749376
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858001922048000
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14857911367024640
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858122416013312
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

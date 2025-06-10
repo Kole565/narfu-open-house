@@ -15,64 +15,32 @@ MonoBehaviour:
   m_TableCollectionName: PokemonsLocalization
   m_TableCollectionNameGuidString: 3aad5f5b51af4854fb4fa50a837eaea3
   m_Entries:
-  - m_Id: 7675531833294848
-    m_Key: Pokemon 1 Detailed Description
+  - m_Id: 14858004203749376
+    m_Key: Pokemon 8 Short Description
     m_Metadata:
       m_Items: []
-  - m_Id: 89995264000
-    m_Key: Pokemon 1
+  - m_Id: 14858077650206720
+    m_Key: Pokemon 8 Detailed Description
     m_Metadata:
       m_Items: []
-  - m_Id: 446431412224
-    m_Key: Pokemon 1 Short Description
+  - m_Id: 14858123288428544
+    m_Key: Pokemon 8
     m_Metadata:
       m_Items: []
-  - m_Id: 14241063894171648
-    m_Key: Pokemon 2 Detailed Description
+  - m_Id: 14858001922048000
+    m_Key: Pokemon 7 Short Description
     m_Metadata:
       m_Items: []
-  - m_Id: 211856572416
-    m_Key: Pokemon 2
+  - m_Id: 14857911367024640
+    m_Key: Pokemon 7 Detailed Description
     m_Metadata:
       m_Items: []
-  - m_Id: 569911721984
-    m_Key: Pokemon 2 Short Description
+  - m_Id: 14858122416013312
+    m_Key: Pokemon 7
     m_Metadata:
       m_Items: []
-  - m_Id: 14241000006533120
-    m_Key: Pokemon 3 Detailed Description
-    m_Metadata:
-      m_Items: []
-  - m_Id: 12372272136192
-    m_Key: Pokemon 3
-    m_Metadata:
-      m_Items: []
-  - m_Id: 12422381486080
-    m_Key: Pokemon 3 Short Description
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14241156038836224
-    m_Key: Pokemon 4 Detailed Description
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7675277092241408
-    m_Key: Pokemon 4
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7675359933939712
-    m_Key: Pokemon 4 Short Description
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14241202239094784
-    m_Key: Pokemon 5 Detailed Description
-    m_Metadata:
-      m_Items: []
-  - m_Id: 7675449255837696
-    m_Key: Pokemon 5
-    m_Metadata:
-      m_Items: []
-  - m_Id: 14241371357626368
-    m_Key: Pokemon 5 Short Description
+  - m_Id: 14241454807498752
+    m_Key: Pokemon 6 Short Description
     m_Metadata:
       m_Items: []
   - m_Id: 14241451145871360
@@ -83,8 +51,64 @@ MonoBehaviour:
     m_Key: Pokemon 6
     m_Metadata:
       m_Items: []
-  - m_Id: 14241454807498752
-    m_Key: Pokemon 6 Short Description
+  - m_Id: 14241371357626368
+    m_Key: Pokemon 5 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241202239094784
+    m_Key: Pokemon 5 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675449255837696
+    m_Key: Pokemon 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675359933939712
+    m_Key: Pokemon 4 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241156038836224
+    m_Key: Pokemon 4 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675277092241408
+    m_Key: Pokemon 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12422381486080
+    m_Key: Pokemon 3 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241000006533120
+    m_Key: Pokemon 3 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12372272136192
+    m_Key: Pokemon 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 569911721984
+    m_Key: Pokemon 2 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241063894171648
+    m_Key: Pokemon 2 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211856572416
+    m_Key: Pokemon 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446431412224
+    m_Key: Pokemon 1 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675531833294848
+    m_Key: Pokemon 1 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89995264000
+    m_Key: Pokemon 1
     m_Metadata:
       m_Items: []
   m_Metadata:
