@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PokemonsLocalization_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3aad5f5b51af4854fb4fa50a837eaea3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 89995264000
+    m_Localized: First Pokemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 211856572416
+    m_Localized: "Second Pokemon\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446431412224
+    m_Localized: 'First Description
+
+      First Description 2
+
+      First Description
+      3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 569911721984
+    m_Localized: Second Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12372272136192
+    m_Localized: Third Pokemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12422381486080
+    m_Localized: Third Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675277092241408
+    m_Localized: Pokemon 4 Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675359933939712
+    m_Localized: Pokemon 4 Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675449255837696
+    m_Localized: Pokemon 5 Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7675531833294848
+    m_Localized: Pokemon 1 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241063894171648
+    m_Localized: Pokemon 2 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241000006533120
+    m_Localized: Pokemon 3 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241156038836224
+    m_Localized: Pokemon 4 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241202239094784
+    m_Localized: Pokemon 5 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241371357626368
+    m_Localized: Pokemon 5 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241454807498752
+    m_Localized: Pokemon 6 Short Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241453062668288
+    m_Localized: Pokemon 6 Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14241451145871360
+    m_Localized: Pokemon 6 Detailed Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858123288428544
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858077650206720
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858004203749376
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858001922048000
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14857911367024640
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14858122416013312
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

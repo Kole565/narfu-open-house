@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6513c7efdd0ccd34dab0ae976a36048b, type: 3}
+  m_Name: Pokemon 3
+  m_EditorClassIdentifier: 
+  nameKey: Pokemon 3
+  shortDescriptionKey: Pokemon 3 Short Description
+  detailedDescriptionKey: Pokemon 3 Detailed Description
+  image: {fileID: 21300000, guid: dd809f4f90303374b9b8c57990b483fb, type: 3}
+  hiddenImage: {fileID: 21300000, guid: f7734cd4e63f3a347bd30edc34e624f4, type: 3}
+  conturedImage: {fileID: 21300000, guid: 2f464f3eda3d81f49937087634c2a147, type: 3}
