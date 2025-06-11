@@ -99,6 +99,18 @@ MonoBehaviour:
     m_Key: App Name
     m_Metadata:
       m_Items: []
+  - m_Id: 17709284358012928
+    m_Key: AR To Details Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17720011496013824
+    m_Key: Play Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17728659987283968
+    m_Key: Menu Start Atleast One Catched
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

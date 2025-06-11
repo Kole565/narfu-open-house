@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 12334196244480
-    m_Localized: Language
+    m_Localized: Lang
     m_Metadata:
       m_Items: []
   - m_Id: 12439896899584
@@ -39,7 +39,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 12568041275392
-    m_Localized: Return
+    m_Localized: Menu
     m_Metadata:
       m_Items: []
   - m_Id: 13666621767680
@@ -47,45 +47,31 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 13755595538432
-    m_Localized: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-      ac sem mauris. Fusce finibus lacinia porta. Suspendisse sed lacus urna. Curabitur
-      nec ipsum hendrerit, sagittis elit sit amet, efficitur ex. Sed suscipit ullamcorper
-      eros, vel convallis orci blandit eu. Proin leo urna, vulputate at ultrices
-      sit amet, pretium vel velit. Integer vitae velit placerat, imperdiet felis
-      vel, bibendum nisl. Nullam mauris elit, imperdiet ac euismod at, venenatis
-      quis nunc. Mauris nec ultrices tortor. Nullam at quam cursus, semper tellus
-      eu, mollis eros. Donec luctus tellus turpis, ac varius dolor varius in. Phasellus
-      tempor urna nec erat varius molestie. Nulla leo leo, tincidunt in augue et,
-      varius auctor tellus. Pellentesque fermentum odio id metus feugiat dictum.
-
-
-
-      Donec
-      ac nulla vel velit posuere pulvinar sed gravida augue. In consectetur dignissim
-      dignissim. Sed sem quam, aliquam quis pharetra at, laoreet a eros. Fusce non
-      ullamcorper erat. Duis lacinia erat sit amet turpis egestas, eu interdum eros
-      posuere. Etiam velit ligula, condimentum et lorem in, consequat vehicula augue.
-      Sed non tellus sed dolor ultricies aliquam. Vestibulum convallis dapibus sagittis.
-
-
-
-      Suspendisse
-      potenti. Aenean nec neque nec odio varius suscipit. Orci varius natoque penatibus
-      et magnis dis parturient montes, nascetur ridiculus mus. Nullam aliquam viverra
-      sem, ut fermentum metus pharetra eget. Donec et ultrices magna, et faucibus
-      dui. Quisque vitae eleifend sem, sit amet condimentum nunc. Proin nec nunc
-      vitae nunc sollicitudin vestibulum et at dolor. Praesent sagittis magna sem,
-      ut tristique sapien bibendum eget. In consequat odio pretium magna cursus,
-      ac rutrum nisl sodales. Maecenas sit amet ex sed nisi tristique molestie. Sed
-      scelerisque mauris id elit tempus bibendum. Aliquam tempor efficitur est.'
+    m_Localized: "Welcome to our mobile application, created by second-year students
+      of the Higher School of Information Technology and Automated Systems (HSITAS),
+      including Irina Albastova, Daniil Pozdeev, Bogdan Puchkov, Nikolay Stepanov
+      and Yulia Chulvashi, as part of their academic practice! We are pleased to
+      present you a unique way to get acquainted with the areas of preparation of
+      our school in a game format.\n\nOur goal is to introduce applicants to the
+      areas of training at the Higher School of Economics and extracurricular activities
+      at NARFU. With the help of our application, you can search for avatars, which,
+      by pointing the camera, will receive information about various educational
+      programs and activities of our higher school. It is not only exciting, but
+      also informative \u2014 you will be able to learn more about what awaits you
+      at our university, and what opportunities open up before you.\n\nWe also want
+      to note that all avatars were generated using the DeepAI neural network, and
+      the game uses Toby Fox's \"Memory\" audio material. We hope that our application
+      will be a useful tool for you in choosing your future profession and will help
+      you take the first step into the world of information technology!\n\nJoin us
+      and discover HSITAS in a fun and interactive way!"
     m_Metadata:
       m_Items: []
   - m_Id: 24984686870528
-    m_Localized: Menu
+    m_Localized: Main screen
     m_Metadata:
       m_Items: []
   - m_Id: 25108020379648
-    m_Localized: Gallery
+    m_Localized: My avatars
     m_Metadata:
       m_Items: []
   - m_Id: 25905609228288
@@ -93,7 +79,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 25925574115328
-    m_Localized: Pokemons
+    m_Localized: My avatars
     m_Metadata:
       m_Items: []
   - m_Id: 25946444972032
@@ -101,7 +87,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 25966372110336
-    m_Localized: About
+    m_Localized: About us
     m_Metadata:
       m_Items: []
   - m_Id: 26484255408128
@@ -117,11 +103,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3106246028869632
-    m_Localized: Are you sure?
+    m_Localized: 'Are you sure you want to reset the entire in-game process?
+
+
+      *This
+      action cannot be undone.'
     m_Metadata:
       m_Items: []
   - m_Id: 16199044504403968
-    m_Localized: Pokemons
+    m_Localized: My avatars
     m_Metadata:
       m_Items: []
   - m_Id: 16996484698521600
@@ -130,6 +120,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 17068631542382592
     m_Localized: NARFU Open House
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17709284358012928
+    m_Localized: Details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17720011496013824
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17728659987283968
+    m_Localized: Continue Game
     m_Metadata:
       m_Items: []
   references:

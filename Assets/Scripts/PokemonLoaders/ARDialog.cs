@@ -12,7 +12,8 @@ public class ARDialog : MonoBehaviour, IPokemonLoadable
     public Pokemon pokemon;
 
     public TMP_Text dialogueText;
-    public Button nextMessageButton;
+    public Button nextMessage;
+    public Button toDetails;
 
     public LocalizeStringEvent pokemonName;
     public Image pokemonImage;
@@ -44,9 +45,14 @@ public class ARDialog : MonoBehaviour, IPokemonLoadable
         var loc = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(Pokemon.localizationTableName, pokemon.shortDescriptionKey);
         loc.Completed += LocalizedString_Completed;
 
-        nextMessageButton.onClick.AddListener(OnPanelClicked);
+        nextMessage.onClick.AddListener(OnPanelClicked);
+        toDetails.onClick.AddListener(OnDetailsClicked);
 
         UpdateText();
+
+        PokemonManager.Instance.SetCatched(pokemon);
+
+        AudioManager.Instance.PlaySFX("Scan");
     }
 
     private void LocalizedString_Completed(AsyncOperationHandle<string> obj)
@@ -76,9 +82,14 @@ public class ARDialog : MonoBehaviour, IPokemonLoadable
         UpdateText();
     }
 
+    void OnDetailsClicked()
+    {
+        PokemonManager.Instance.UpdatePokemonForDetails(pokemon);
+        UIManager.Instance.SwitchToDetails();
+    }
+
     private void OnDialogueEnd()
     {
-        PokemonManager.Instance.SetCatched(pokemon);
         imageManager.RemoveARObject(gameObject);
     }
 }

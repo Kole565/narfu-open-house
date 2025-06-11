@@ -19,104 +19,305 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 89995264000
-    m_Localized: First Pokemon
+    m_Localized: Information Defender
     m_Metadata:
       m_Items: []
   - m_Id: 211856572416
-    m_Localized: "Second Pokemon\t"
+    m_Localized: Architect of solutions
     m_Metadata:
       m_Items: []
   - m_Id: 446431412224
-    m_Localized: 'First Description
+    m_Localized: 'Hey, guys! Do you want to become a specialist who ensures cybersecurity
+      of government and commercial organizations?
 
-      First Description 2
-
-      First Description
-      3'
+      The Information Security
+      course trains experts in data protection from cyber attacks, the creation of
+      secure IT systems and cryptographic technologies.'
     m_Metadata:
       m_Items: []
   - m_Id: 569911721984
-    m_Localized: Second Description
+    m_Localized: "Hey, guys! Do you want to become a In-demand IT specialist who
+      not only writes code, but solves real business problems? \nThe direction of
+      \"Applied Informatics\" is a powerful start in IT with guaranteed employment
+      and a salary above the market already at the start of a career!"
     m_Metadata:
       m_Items: []
   - m_Id: 12372272136192
-    m_Localized: Third Pokemon
+    m_Localized: Teacher
     m_Metadata:
       m_Items: []
   - m_Id: 12422381486080
-    m_Localized: Third Description
+    m_Localized: 'Hey, guys! Do you want to become a modern teacher who not only
+      provides knowledge, but also inspires?
+
+      The direction of Pedagogical
+      education with two training profiles "mathematics" and "computer science" prepares
+      teachers who are able to work in the digital age!'
     m_Metadata:
       m_Items: []
   - m_Id: 7675277092241408
-    m_Localized: Pokemon 4 Name
+    m_Localized: Automator
     m_Metadata:
       m_Items: []
   - m_Id: 7675359933939712
-    m_Localized: Pokemon 4 Description
+    m_Localized: 'Hey, guys! Do you want to become a specialist who creates "smart"
+      productions and manages high-tech systems?
+
+      The direction "Automation
+      of technological processes and productions" trains engineers who are able to
+      design, implement and maintain automated solutions for industry!'
     m_Metadata:
       m_Items: []
   - m_Id: 7675449255837696
-    m_Localized: Pokemon 5 Name
+    m_Localized: Programmer-mathematician
     m_Metadata:
       m_Items: []
   - m_Id: 7675531833294848
-    m_Localized: Pokemon 1 Detailed Description
+    m_Localized: "10.03.01 \u2014 Information security\n\nDo you want to become a
+      specialist who provides cybersecurity for government and commercial organizations?
+      The Information Security department trains experts in protecting data from
+      cyber attacks, creating secure IT systems, and cryptographic technologies. 
+      \n\nWhat will you learn? The program covers various aspects of information
+      security:\n\u2014 cryptography, data encryption, creation of secure protocols;\n\u2014
+      network security, VPN, protection against unauthorized access, vulnerability
+      analysis;\n\u2014 legal aspects, laws on personal data, security standards
+      (FSTEC, FSS);\n\u2014 technical protection, access control systems, antivirus
+      protection.\n\nThe key disciplines will be:\n\u2014 Information technology;\n\u2014
+      building network information security systems; \n\u2014 information theory;\n\u2014
+      quantum cryptography;\n\u2014 software development technologies;\n\u2014 linear
+      coding.\n\nWho can you become if you choose this direction?\n\u2014 information
+      security specialist (government agencies, banks, corporations);\n\u2014 specialist
+      in the development of information security audit techniques;\n\u2014 specialist
+      in technical information security;\n\u2014 specialist in testing for unauthorized
+      entry;\n\u2014 the administrator of information security of the enterprise;\n\u2014
+      Head of the Information Security Department of the enterprise.\n\nStudents,
+      having received an education in this field, will be able to work:\n\u2014 in
+      government agencies;\n\u2014 in banks and financial organizations;\n\u2014
+      in private IT companies;\n\u2014 in industrial enterprises;\n\u2014 in consulting
+      companies (security audit).\n\nWhy this direction?\nThis direction is for you
+      if you want to be a sought-after expert in the field of information security,
+      love technology and are ready to look for vulnerabilities with interest, like
+      a hacker in a movie, but ethically. If you want to be more than just a programmer,
+      but apply analytical thinking, know the laws, and learn how to explain risks
+      to a business.\n\nEnroll in the field of information security \u2013 become
+      the one who will protect the digital future!"
     m_Metadata:
       m_Items: []
   - m_Id: 14241063894171648
-    m_Localized: Pokemon 2 Detailed Description
+    m_Localized: "09.03.03 \u2014 Software product development and maintenance\n\nDo
+      you want to become a sought-after IT specialist who not only writes code, but
+      solves real business problems? The field of Applied Informatics is a powerful
+      start in IT with guaranteed employment and a salary above the market already
+      at the start of a career!  \n\nWhat will you learn? The program trains versatile
+      specialists who: \n\u2014 design their business;\n\u2014 develop configurations
+      for business automation;\n\u2014 integrate 1C with other systems;\n\u2014 test
+      and debug solutions before implementation;\n\nThe key disciplines will be:\n\u2014
+      programming in the embedded 1C language;\n\u2014 working with the 1C platform:Enterprise
+      8\";\n\u2014 development of mobile applications on 1C;\n\u2014 designing IT
+      solutions;\n\u2014 testing and debugging of software products.\n  \nStudents
+      not only study, but also participate in events:\n\u2014 1C Olympiads (\"My
+      profession is IT\");\n\u2014 case championships (analysis of real business
+      tasks, for example, project management);  \n\u2014 diploma project competition
+      (every year our graduates take 1st place in the North-Western Federal District). 
+      \n\nThere are also excursions to partner companies, meetings with top 1C developers,
+      and career consultations.  \n \nInternships are held:\n\u2014 in 1C franchisee
+      firms (partner network throughout Russia);\n\u2014 in 1C automated companies
+      (from small firms to large holdings);\n\u2014 and even in the 1C company itself.\n\nWho
+      will you become after graduation?\n\u2014 1C developer; \n\u2014 1C tester
+      (a great start for perfectionists);\n\u2014 business analyst (if you like to
+      analyze processes and communicate with customers);\n- team leader (for those
+      who want to manage a team).\n\u2014 architect of solutions (if you want to
+      design complex systems).\n\nChoose 1C \u2014 and your career in IT will not
+      take long to wait!"
     m_Metadata:
       m_Items: []
   - m_Id: 14241000006533120
-    m_Localized: Pokemon 3 Detailed Description
+    m_Localized: "44.03.05 \u2014 Pedagogical Education\n\nDo you want to become
+      a modern teacher who not only provides knowledge, but also inspires?\nThe direction
+      of Pedagogical education with two training profiles \"mathematics\" and \"computer
+      science\" prepares teachers who are able to work in the digital age!\n\nWhat
+      will they teach you? The program combines fundamental subjects and modern technologies:\n\u2014
+      pedagogy and psychology, on how to captivate all students with your subject
+      and teach them how to learn;\n\u2014 teaching methods, how to make any lesson
+      interesting and effective;\n\u2014 digital technologies in education, how to
+      use digital educational resources correctly, create your own courses on an
+      online platform, how to develop interactive tasks and visualize educational
+      information, and how artificial intelligence helps a teacher, how to use gamification
+      techniques in the classroom;\n\u2014 subject training with in-depth study of
+      selected disciplines.\n\nStudents complete internships in general education
+      schools, lyceums, and continuing education centers.\n\nAfter receiving your
+      diploma, you will be able to work:  \n\u2014 a teacher at a school or college;\n\u2014
+      a methodologist or developer of educational programs;\n\u2014 teacher in online
+      schools;\n\u2014 a specialist in working with gifted children.\n\nDuring your
+      studies, you will be able to try your hand at directing students' research,
+      conducting popular science and entertaining classes in mathematics and computer
+      science for children and adults, developing exhibits and conducting excursions
+      at the museum of entertaining mathematics, and participating in scientific
+      conferences on pedagogy and digital education.\n\nWhy our particular direction? 
+      \nToday, a teacher is not just a \"lesson teacher\", but a mentor, motivator
+      and innovator. \nYou will work with different students, use digital technologies
+      in teaching and create your own educational projects.  \n\nIf you want not
+      just to teach, but to introduce new technologies for teaching mathematics and
+      computer science, enroll in the pedagogical direction of HSITAS!"
     m_Metadata:
       m_Items: []
   - m_Id: 14241156038836224
-    m_Localized: Pokemon 4 Detailed Description
+    m_Localized: "15.03.04 \u2014 Automation of technological processes\n\nDo you
+      want to become a specialist who creates \"smart\" productions and manages high-tech
+      systems? The direction \"Automation of technological processes and productions\"
+      trains engineers who are able to design, implement and maintain automated solutions
+      for industry!  \n\nWhat will you learn?\nThe program combines engineering,
+      IT and management:\n\u2014 fundamentals of automation with design of control
+      systems, work with sensors and controllers;\n\u2014 programming and software
+      development for controllers and robots;\n\u2014 robotics: creation and configuration
+      of robotic complexes;\n\u2014 digital technologies and the industrial Internet
+      of Things;\n\u2014 3D modeling;\n\u2014 security and diagnostics of automated
+      systems.  \n\nStudents complete internships at industrial enterprises, research
+      institutes, and IT companies. After graduation, you will be able to work as
+      an automation engineer, a control system developer, a robotics specialist,
+      or a designer of \"smart\" industries.\n\nAt HSITAS, students actively participate
+      in:\n\u2014 competitions (WorldSkills, RTK Cup, RoboCup);\n\u2014 industrial
+      automation hackathons;\n\u2014 exhibitions (demonstration of projects: robot
+      manipulators, smart warehouses, autonomous transport systems); \n\u2014 excursions
+      to leading enterprises (Rosatom, KAMAZ).\n\nWhy automation?\nThis field is
+      for those who want to work at the intersection of mechanics, electronics and
+      programming, to create innovative solutions for real production.\n\nChoose
+      automation \u2014 build the future of industry!"
     m_Metadata:
       m_Items: []
   - m_Id: 14241202239094784
-    m_Localized: Pokemon 5 Detailed Description
+    m_Localized: "01.03.02 \u2014 Applied Mathematics and Computer Science\n\nDo
+      you want to become a specialist who transforms complex mathematical models
+      into working IT solutions? The Applied Mathematics and Computer Science course
+      trains experts in the field of supercomputing technologies, data analysis and
+      mathematical modeling!\n\nWhat will you learn?\nThe program combines fundamental
+      mathematics and applied IT skills:\n- mathematical analysis, algebra, discrete
+      mathematics, game theory;\n\u2014 programming in C++, Python, Java;  \n\u2014
+      Data Science, Machine learning, Big Data technologies; \n\u2014 high-performance
+      computing, algorithm optimization;\n\u2014 applied modeling.    \n\nStudents
+      complete internships in IT companies, research centers, and industrial enterprises.
+      Graduates work as:\n\u2014 mathematical programmers (Yandex, SberTech, Rostelecom); 
+      \n\u2014 Big Data analysts (banks, telecom, retail);\n\u2014 developers (computer
+      games, neural networks, cryptography);\n\u2014 research engineers (Skoltech,
+      RAS, state corporations).\n\nOur students participate in:\n\u2014 Programming
+      Olympiads (ACM ICPC, Codeforces).  \n\u2014 hackathons on data analysis (for
+      example, from VK or Tinkoff);\n\u2014 scientific projects (climate modeling,
+      logistics optimization).\n\nYou will gain the unique skill of turning abstract
+      formulas into digital products.\n\nChoose applied mathematics \u2014 create
+      the technologies of tomorrow!"
     m_Metadata:
       m_Items: []
   - m_Id: 14241371357626368
-    m_Localized: Pokemon 5 Short Description
+    m_Localized: 'Hey, guys! Do you want to become a specialist who transforms complex
+      mathematical models into working IT solutions?
+
+      The Applied Mathematics
+      and Computer Science course trains experts in the field of supercomputing technologies,
+      data analysis and mathematical modeling!'
     m_Metadata:
       m_Items: []
   - m_Id: 14241454807498752
-    m_Localized: Pokemon 6 Short Description
+    m_Localized: "Hey, guys! Studying is important, but real student life boils away
+      from the classroom!\nHere you will find hundreds of opportunities for self\u2014realization
+      - from scientific breakthroughs to creative ups."
     m_Metadata:
       m_Items: []
   - m_Id: 14241453062668288
-    m_Localized: Pokemon 6 Name
+    m_Localized: Activist
     m_Metadata:
       m_Items: []
   - m_Id: 14241451145871360
-    m_Localized: Pokemon 6 Detailed Description
+    m_Localized: "Extracurricular life\n\nStudying is important, but real student
+      life boils away from classrooms! At , you will find hundreds of opportunities
+      for self\u2014realization, from scientific breakthroughs to creative takeoffs. 
+      \n\nWe have a Student Scientific Society for future scientists and innovators.
+      Here you can:\n\u2014 write articles that will be published in serious journals;\n\u2014
+      participate in conferences ranging from university to international;\n\u2014
+      work on projects with teachers and IT companies;\n\u2014 invent something that
+      will change the future!  \n\nFor leaders and public figures, there is the Student
+      Council of HSITAS, where events are created that cannot be forgotten.:  \n\u2014
+      \"Freshman's trip\" (a trip to nature, where friendships are born for years
+      to come);\n\u2014 \"Star of HSITAS\" (a battle of creative talents between
+      directions);\n\u2014 \"Asset School\" (upgrade soft skills and activist skills);\n\u2014
+      and much more!\n\nFor athletes and champions\nSports sections for every taste.
+      Take part in competitions, Olympiads and tournaments.\n\nCreative people have
+      been ordered to the University Creative Center, where it is possible to unleash
+      their potential as a dancer, musician, sound engineer, singer and much more!\n\nEnroll
+      in HSITAS and your student life will become brighter than the stars!"
     m_Metadata:
       m_Items: []
   - m_Id: 14858123288428544
-    m_Localized: TODO
+    m_Localized: System Administrator
     m_Metadata:
       m_Items: []
   - m_Id: 14858077650206720
-    m_Localized: TODO
+    m_Localized: "09.03.01 \u2014 DevOps\n\nDo you want to become a In-demand IT
+      specialist at the intersection of development and administration? Speed up
+      and automate the project development process? The DevOps training course at
+      our graduate school provides exactly such skills!\_ \n\nWhat will you learn?\nLearning
+      starts from the foundation: the Network. But in the future you will be guided
+      through such modules as:\n\u2014 administration (the process of managing and
+      maintaining computer systems and networks in working order);\n\u2014 configuration
+      (system configuration, adaptation of software or hardware); \n\u2014 IT infrastructure
+      (a set of technical means that ensure the storage, processing, transmission
+      and protection of information);\nAnd then there's cloud technology!\n\nYou
+      will master key technologies for automating deployment and infrastructure management,
+      and learn how to work with CI/CD, containerization, cloud platforms, and monitoring
+      systems.\_ \n\nStudents complete internships in IT companies such as Baltic
+      Technology Company, PlaysDev, GAU ICT and others. After graduation, you will
+      be able to work as a DevOps engineer, one of the most highly paid and In-demand
+      professions in IT.\_ \n\nThere is a lot of activity in our country! We host:\n\u2014
+      hackathons;\n\u2014 festivals (RusLinuxInstall Fest, Radio Fest);\n\u2014 Olympiads
+      (IT Planet, MPIT);\nAnd much more! \n\nDevOps is a methodology that unites
+      developers and system administrators, speeding up the release of high\u2014quality
+      software. You will learn how to:\n\u2014 automate processes;\_ \n\u2014 work
+      with cloud services;\n\u2014 ensure the smooth operation of IT systems.\n\nBuild
+      a career in a promising direction \u2014 join DevOps!"
     m_Metadata:
       m_Items: []
   - m_Id: 14858004203749376
-    m_Localized: TODO
+    m_Localized: 'Hey, guys! Do you want to become a In-demand IT specialist at the
+      intersection of development and administration? Speed up and automate the project
+      development process?
+
+      The DevOps training course at our graduate school
+      provides exactly such skills!'
     m_Metadata:
       m_Items: []
   - m_Id: 14858001922048000
-    m_Localized: TODO
+    m_Localized: "Hey, guys! Do you want to become a developer of smart systems that
+      change the world? The Information Systems and Technologies course is your chance
+      to enter the most in\u2014demand segment of IT!\nHere you will learn not just
+      how to program, but how to create algorithms that think, analyze and make decisions."
     m_Metadata:
       m_Items: []
   - m_Id: 14857911367024640
-    m_Localized: TODO
+    m_Localized: "09.03.02 \u2014 Information systems and technologies\n\nDo you
+      want to become a developer of smart systems that change the world? The Information
+      Systems and Technologies direction is your chance to enter the most in\u2014demand
+      segment of IT! They teach you not just how to program, but how to create algorithms
+      that think, analyze, and make decisions.  \n\nWhat will they teach you? The
+      program combines the following:\n\u2014 programming;  \n\u2014 artificial intelligence
+      and machine learning;\n\u2014 artificial intelligence systems;\n\u2014 collection,
+      storage and preparation of big data;\nYou will learn how to program and create
+      algorithms, simulate artificial intelligence and data management. You will
+      be able to put cloud technologies into practice and protect information. \n\nStudents
+      participate in:  \n\u2014 hackathons and Olympiads on data development and
+      analysis (\"IT Planet\", \"Sber AI Challenge\");\n\u2014 scientific projects
+      on the development of smart systems for enterprises of the Arkhangelsk region;\n\u2014
+      meetings with industry experts.\n\nThey practice in IT companies and industrial
+      enterprises.: Samsung Electronics, TargetPlus, Ti Ex Consulting, Rostelecom
+      PJSC, AFK Sistema.\n\nGraduates work as:\n\u2014 Data scientist and machine
+      learning engineer;\n\u2014 software developers and data analysts;\n\u2014 information
+      technology engineers;\n\u2014 architects of digital solutions.\n\nDigitalization
+      covers all sectors of the economy, and if you want not only to learn how to
+      write code, but also to analyze data and develop systems that solve real business
+      and scientific problems, then this area is your option.\n\nChoose information
+      systems and technologies, and your code will learn, think, and win!"
     m_Metadata:
       m_Items: []
   - m_Id: 14858122416013312
-    m_Localized: TODO
+    m_Localized: AI Engineer
     m_Metadata:
       m_Items: []
   references:

@@ -20,6 +20,7 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6d1cee96d1bfff34cb77c20e90f7b6ff
     m_Address: PokemonsLocalization_ru

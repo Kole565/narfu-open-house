@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     private GameObject[] lastOpened;
 
     public GameObject detailsWindow;
+    public GameObject menuWindow;
 
     private void Awake()
     {
@@ -52,8 +53,20 @@ public class UIManager : MonoBehaviour
 
     public void SwitchToDetails()
     {
+        if (xrRoot.activeSelf)
+        {
+            ShowUI();
+        }
         SwitchUIWindow(detailsWindow);
+    }
 
+    public void SwitchToMenu()
+    {
+        if (xrRoot.activeSelf)
+        {
+            ShowUI();
+        }
+        SwitchUIWindow(menuWindow);
     }
 
     public void ShowDialog(GameObject dialog)

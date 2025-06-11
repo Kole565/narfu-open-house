@@ -155,8 +155,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pokemon name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f4b9eed98a8c31d42a464702296824d1, type: 2}
-  m_sharedMaterial: {fileID: -2241703714370073155, guid: f4b9eed98a8c31d42a464702296824d1,
+  m_fontAsset: {fileID: 11400000, guid: ac0d69cd4ece51b449868d7eeb7ed998, type: 2}
+  m_sharedMaterial: {fileID: -7430565623090994261, guid: ac0d69cd4ece51b449868d7eeb7ed998,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -181,10 +181,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.35
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1

@@ -10,6 +10,7 @@ public class PokemonManager : MonoBehaviour
     public List<Pokemon> catchedPokemons = new List<Pokemon>();
 
     public Pokemon currentPokemonForGalleryDetails;
+    public bool atleastOneCatched = false;
 
     private void Awake()
     {
@@ -27,12 +28,19 @@ public class PokemonManager : MonoBehaviour
     public void Reset()
     {
         catchedPokemons.Clear();
+        currentPokemonForGalleryDetails = null;
+        atleastOneCatched = false;
     }
 
     public void SetCatched(Pokemon pokemon)
     {
         if (!catchedPokemons.Contains(pokemon)) {
             catchedPokemons.Add(pokemon);
+        }
+
+        if (!atleastOneCatched)
+        {
+            atleastOneCatched = true;
         }
     }
 
