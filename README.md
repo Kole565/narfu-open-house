@@ -1,32 +1,25 @@
-# What is it?
+# NARFU Open House
 
 An AR mobile application with image recognition, used to interest new students and inform them about our higher school.
+
 Project available in two languages: Russian and English.
+
+## Tech stack
+
+- Unity and C# - for development.
+- Figma - for prototyping.
+- GitHub with Git LFS - for version control and data management.
 
 ## How to use
 
 In order to use our application, you need to:
 
 1. Find a stand with suitable images to scan. You will find out that these are the right images by the booth and the people nearby.
-2. Download and install the latest version of our application available at the [link](https://github.com/Kole565/narfu-open-house/releases/download/v0.5.0/narfu-open-house_0.5.0.apk).
+2. Download and install the latest version of our application available at the [link](https://github.com/Kole565/narfu-open-house/releases/).
 3. Launch the application and act as in any other interactive applications.
 4. If you have any problems, contact the people next to the booth for help — they will answer any of your questions.
 
-## Skill set
-
-Skills developed by this project. Ordered from more to less general.
-
-- Kanban (strive) and iterative development
-- AR
-- Git and GitHub
-- Git lfs
-- semantic versioning
-- conventional commits
-- Figma
-- Unity + C#
-- Localization
-
-## Team and roles
+## Acknowledgments
 
 The creation of this app was made possible by a team of five wonderful people. Here are some of their merits:
 
@@ -47,4 +40,8 @@ The creation of this app was made possible by a team of five wonderful people. H
 - Developer - **Степанов Николай**
 	- Made this repo.
 	- Made this README.
-	- Open and maintain Project's Kanban board on Strive.
+	- Made this app.
+
+## License
+
+GNU General Public License v3.0
